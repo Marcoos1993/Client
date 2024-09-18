@@ -1,0 +1,111 @@
+HELP.md
+# Maven
+target/
+!target/classes/
+!target/test-classes/
+!target/*.jar
+
+# Gradle
+build/
+!build/libs/
+!build/*.jar
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+.mvn/
+.gradle/
+
+# IDE-specific files
+*.swp
+*~
+.sublime-workspace
+.sublime-project
+
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven
+target/
+!target/classes/
+!target/test-classes/
+!target/*.jar
+
+# Gradle
+build/
+!build/libs/
+!build/*.jar
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+.mvn/
+.gradle/
+
+# IDE-specific files
+*.swp
+*~
+.sublime-workspace
+.sublime-project
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
